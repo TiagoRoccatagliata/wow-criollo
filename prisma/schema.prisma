@@ -1,0 +1,106 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum CharacterClass {
+  WARRIOR
+  PALADIN
+  HUNTER
+  ROGUE
+  PRIEST
+  SHAMAN
+  MAGE
+  WARLOCK
+  DRUID
+}
+
+enum Faction {
+  HORDE
+  ALLIANCE
+}
+
+enum ActivityType {
+  LEVELING
+  DUNGEONS
+  QUESTS
+  WORLD_PVP
+  BATTLEGROUNDS
+  DUELS
+  RAIDS
+  OTHER
+}
+
+enum PostStatus {
+  LOOKING
+  FULL
+  FINISHED
+  EXPIRED
+}
+
+enum Availability {
+  NOW
+  AFTERNOON
+  NIGHT
+  FLEXIBLE
+}
+
+enum ReportStatus {
+  PENDING
+  REVIEWED
+  DISMISSED
+}
+
+model GroupPost {
+  id               String         @id @default(uuid()) @db.Uuid
+  characterName    String         @db.VarChar(24)
+  level            Int
+  characterClass   CharacterClass
+  faction          Faction
+  activity         ActivityType
+  zone             String         @db.VarChar(80)
+  recommendedLevel Int
+  schedule         String         @db.VarChar(100)
+  availability     Availability
+  description      String         @db.VarChar(1000)
+  discordUsername  String?        @db.VarChar(32)
+  playersNeeded    Int
+  status           PostStatus     @default(LOOKING)
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+  expiresAt        DateTime
+  managerTokenHash String         @db.Char(64)
+  isDemo           Boolean        @default(false)
+  reports          PostReport[]
+
+  @@index([status, expiresAt, createdAt(sort: Desc)])
+  @@index([activity, status])
+  @@index([faction, characterClass, level])
+  @@index([availability])
+  @@index([createdAt(sort: Desc)])
+}
+
+model PostReport {
+  id           String       @id @default(uuid()) @db.Uuid
+  postId       String       @db.Uuid
+  post         GroupPost    @relation(fields: [postId], references: [id], onDelete: Cascade)
+  reason       String       @db.VarChar(500)
+  reporterHash String       @db.Char(64)
+  status       ReportStatus @default(PENDING)
+  createdAt    DateTime     @default(now())
+
+  @@unique([postId, reporterHash])
+  @@index([status, createdAt])
+}
+
+model RateLimitBucket {
+  key       String   @id @db.VarChar(100)
+  count     Int      @default(1)
+  resetAt   DateTime
+
+  @@index([resetAt])
+}

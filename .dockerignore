@@ -1,0 +1,10 @@
+.git
+.env
+.env.*
+.local
+.next
+node_modules
+src/generated
+coverage
+**/*.tsbuildinfo
+**/.DS_Store

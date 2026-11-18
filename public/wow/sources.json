@@ -1,0 +1,168 @@
+{
+  "copyright": "© Blizzard Entertainment, Inc. All rights reserved.",
+  "assets": [
+    {
+      "file": "classes/warrior.jpg",
+      "url": "https://render.worldofwarcraft.com/us/icons/56/classicon_warrior.jpg",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/game/classes",
+      "bytes": 2337,
+      "sourceBytes": 2337
+    },
+    {
+      "file": "classes/paladin.jpg",
+      "url": "https://render.worldofwarcraft.com/us/icons/56/classicon_paladin.jpg",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/game/classes",
+      "bytes": 2854,
+      "sourceBytes": 2854
+    },
+    {
+      "file": "classes/hunter.jpg",
+      "url": "https://render.worldofwarcraft.com/us/icons/56/classicon_hunter.jpg",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/game/classes",
+      "bytes": 2312,
+      "sourceBytes": 2312
+    },
+    {
+      "file": "classes/rogue.jpg",
+      "url": "https://render.worldofwarcraft.com/us/icons/56/classicon_rogue.jpg",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/game/classes",
+      "bytes": 2652,
+      "sourceBytes": 2652
+    },
+    {
+      "file": "classes/priest.jpg",
+      "url": "https://render.worldofwarcraft.com/us/icons/56/classicon_priest.jpg",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/game/classes",
+      "bytes": 2520,
+      "sourceBytes": 2520
+    },
+    {
+      "file": "classes/shaman.jpg",
+      "url": "https://render.worldofwarcraft.com/us/icons/56/classicon_shaman.jpg",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/game/classes",
+      "bytes": 3045,
+      "sourceBytes": 3045
+    },
+    {
+      "file": "classes/mage.jpg",
+      "url": "https://render.worldofwarcraft.com/us/icons/56/classicon_mage.jpg",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/game/classes",
+      "bytes": 2684,
+      "sourceBytes": 2684
+    },
+    {
+      "file": "classes/warlock.jpg",
+      "url": "https://render.worldofwarcraft.com/us/icons/56/classicon_warlock.jpg",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/game/classes",
+      "bytes": 2780,
+      "sourceBytes": 2780
+    },
+    {
+      "file": "classes/druid.jpg",
+      "url": "https://render.worldofwarcraft.com/us/icons/56/classicon_druid.jpg",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/game/classes",
+      "bytes": 2403,
+      "sourceBytes": 2403
+    },
+    {
+      "file": "factions/horde.jpg",
+      "url": "https://render.worldofwarcraft.com/us/icons/56/inv_bannerpvp_01.jpg",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/",
+      "bytes": 2801,
+      "sourceBytes": 2801
+    },
+    {
+      "file": "factions/alliance.jpg",
+      "url": "https://render.worldofwarcraft.com/us/icons/56/inv_bannerpvp_02.jpg",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/",
+      "bytes": 3140,
+      "sourceBytes": 3140
+    },
+    {
+      "file": "activities/leveling.jpg",
+      "url": "https://render.worldofwarcraft.com/us/icons/56/achievement_level_10.jpg",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/",
+      "bytes": 1840,
+      "sourceBytes": 1840
+    },
+    {
+      "file": "activities/dungeons.jpg",
+      "url": "https://render.worldofwarcraft.com/us/icons/56/achievement_dungeon_classicdungeonmaster.jpg",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/",
+      "bytes": 2693,
+      "sourceBytes": 2693
+    },
+    {
+      "file": "activities/quests.jpg",
+      "url": "https://render.worldofwarcraft.com/us/icons/56/achievement_quests_completed_01.jpg",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/",
+      "bytes": 2186,
+      "sourceBytes": 2186
+    },
+    {
+      "file": "activities/world-pvp.jpg",
+      "url": "https://render.worldofwarcraft.com/us/icons/56/achievement_pvp_p_01.jpg",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/",
+      "bytes": 2200,
+      "sourceBytes": 2200
+    },
+    {
+      "file": "activities/battlegrounds.jpg",
+      "url": "https://render.worldofwarcraft.com/us/icons/56/achievement_bg_winwsg.jpg",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/",
+      "bytes": 2928,
+      "sourceBytes": 2928
+    },
+    {
+      "file": "activities/duels.jpg",
+      "url": "https://render.worldofwarcraft.com/us/icons/56/ability_dualwield.jpg",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/",
+      "bytes": 2418,
+      "sourceBytes": 2418
+    },
+    {
+      "file": "activities/raids.jpg",
+      "url": "https://render.worldofwarcraft.com/us/icons/56/achievement_dungeon_classicraider.jpg",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/",
+      "bytes": 2663,
+      "sourceBytes": 2663
+    },
+    {
+      "file": "activities/other.jpg",
+      "url": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_map_01.jpg",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/",
+      "bytes": 2125,
+      "sourceBytes": 2125
+    },
+    {
+      "file": "brand/wow-icon.png",
+      "url": "https://assets-bwa.worldofwarcraft.blizzard.com/static/wow-icon-32x32.1a38d7c1c3d8df560d53f5c2ad5442c0401edf83.png",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/game/classes",
+      "bytes": 1873,
+      "sourceBytes": 1873
+    },
+    {
+      "file": "brand/wow-forever.png",
+      "url": "https://imguscdn.gamespress.com/cdn/files/BlizzardLive/2026/09/121553-8b567c06/WoW_Forever_Logo.png?w=276&mode=max&otf=y&quality=90&format=png&bgcolor=transparent&sky=aee8c234b2dab8ebd6fe975d749744a8cdd5ab7b70c93cdabf754222ce7d555d",
+      "source": "https://blizzard.gamespress.com/World-of-Warcraft-Forever-Classic",
+      "bytes": 86119,
+      "sourceBytes": 86119
+    },
+    {
+      "file": "art/forever-cinematic.webp",
+      "url": "https://imguscdn.gamespress.com/cdn/files/BlizzardLive/2026/09/121554-88bd1474/WoW_Forever_Cinematic_Still_1.png?w=1600&mode=max&otf=y&quality=90&format=jpg&bgcolor=black&ex=2027-01-01+03%3A00%3A00&sky=406f28b285074bc54c7e4a2a73a3dc8d79f91d824c45af501dddaceefe0c5121",
+      "source": "https://blizzard.gamespress.com/World-of-Warcraft-Forever-Classic",
+      "bytes": 124732,
+      "processing": "Conversión a WebP, calidad 82. Encuadre original.",
+      "sourceBytes": 217648
+    },
+    {
+      "file": "art/forever-cinematic.jpg",
+      "url": "https://imguscdn.gamespress.com/cdn/files/BlizzardLive/2026/09/121554-88bd1474/WoW_Forever_Cinematic_Still_1.png?w=1600&mode=max&otf=y&quality=90&format=jpg&bgcolor=black&ex=2027-01-01+03%3A00%3A00&sky=406f28b285074bc54c7e4a2a73a3dc8d79f91d824c45af501dddaceefe0c5121",
+      "source": "https://blizzard.gamespress.com/World-of-Warcraft-Forever-Classic",
+      "bytes": 217648,
+      "processing": "Formato JPEG oficial, utilizado en la imagen de Open Graph.",
+      "sourceBytes": 217648
+    }
+  ]
+}
